@@ -134,7 +134,7 @@ $.ajax({
     var date = DD + ' ' + month[parseInt(MM, 10) - 1] + ' ' + YYYY;
 
     // Display date and time
-    $('#timestamp').text('Latest PSI at' + time + ' on ' + date);
+    $('#timestamp').text('Latest PSI at ' + time + ' on ' + date);
   },
   error: function(){
     var text = 'Failed to fetch data.';
