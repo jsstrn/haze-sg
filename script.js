@@ -4,7 +4,7 @@
 */
 
 // API URL + Key
-var api_url = 'http://www.nea.gov.sg/api/WebAPI/?dataset=psi_update&keyref=';
+var api_url = 'https://www.nea.gov.sg/api/WebAPI/?dataset=psi_update&keyref=';
 var api_key = '781CF461BB6606AD0308169EFFAA8231555B25D8AC94A956';
 api_url += api_key;
 
