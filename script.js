@@ -125,7 +125,7 @@ $.ajax({
     // Time
     var time = '';
     var hour = parseInt(HH, 10);
-    if (hour == 0) { time = 'midnight'; }
+    if (hour === 0) { time = 'midnight'; }
     if (hour > 0 && hour <= 12) { time = hour.toString() + 'am'; }
     if (hour > 12) { time =  (hour - 12).toString() + 'pm';}
 
